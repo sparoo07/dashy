@@ -1,13 +1,11 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: Hashim's Dashboard
+  description: Welcome to your dashboard!
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
+  - title: My GitHub
+    path: https://github.com/sparoo07
 
 # Optional app settings and configuration
 appConfig:
@@ -22,8 +20,8 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
+- name: Topic 1
+  icon: fa fa-book
   items:
   - title: Dashy Live
     description: Development a project management links for Dashy
