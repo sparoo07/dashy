@@ -17,6 +17,8 @@ appConfig:
     - user: hashim
       hash: A173BE4936C51E9DBF8BA08052A1232B93F3D24C05B0EB4A8A2F070A0FFC8E24
       type: admin
+    - user: user
+      hash: A173BE4936C51E9DBF8BA08052A1232B93F3D24C05B0EB4A8A2F070A0FFC8E24
 
 # Main content - An array of sections, each containing an array of items
 sections:
