@@ -9,7 +9,11 @@ pageInfo:
 
 # Optional app settings and configuration
 appConfig:
+  # Theme Style
   theme: colorful
+  # Supported Language
+  lang: ar
+  # Users
   auth:
     users:
     - user: hashim
@@ -20,33 +24,13 @@ appConfig:
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: Topic 1
-  icon: fa fa-book
+- name: كتب
+  icon: fal fa-books
   items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
+  - title: Artificial Intelligence
+    description: A guide to Intelligent systems
+    icon: https://mediaserver.123library.org/9781408225752/cover/9781408225752.png
+    url: https://www.dropbox.com/s/mlu9cucbw7ep6e3/Artificial%20Intelligence%20A%20Guide%20to%20Intelligent%20Systems.pdf?dl=0
     target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
+  
   
