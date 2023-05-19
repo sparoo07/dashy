@@ -32,5 +32,26 @@ sections:
     icon: https://mediaserver.123library.org/9781408225752/cover/9781408225752.png
     url: https://www.dropbox.com/s/mlu9cucbw7ep6e3/Artificial%20Intelligence%20A%20Guide%20to%20Intelligent%20Systems.pdf?dl=0
     target: newtab
-  
+- name: الوقت
+  icon: fal fa-clock
+  widgets:
+  - type: clock
+    options:
+      timeZone: Asia/Riyadh
+      format: ar-SA
+- name: الثغرات الأمنية
+  icon: fal fa-bug
+  widgets:
+  - type: cve-vulnerabilities
+    options:
+      sortBy: publish-date
+      limit: 30
+- name: الأخبار التقنية
+  icon: fal fa-square-rss
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: http://fetchrss.com/rss/6467b15e98506038d74d0c126467b142056540455f360912.atom
+      apiKey: 08a38o9tgijssmaklhg0j8kfnvuvn9gjmspdmywu
+      limit: 30
   
