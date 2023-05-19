@@ -51,7 +51,7 @@ sections:
   widgets:
   - type: rss-feed
     options:
-      rssUrl: http://fetchrss.com/rss/6467b15e98506038d74d0c126467b142056540455f360912.atom
+      rssUrl: https://www.securitymagazine.com/rss/topic/2236-cybersecurity-news
       apiKey: 08a38o9tgijssmaklhg0j8kfnvuvn9gjmspdmywu
       limit: 30
   
