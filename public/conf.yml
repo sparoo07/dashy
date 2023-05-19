@@ -39,13 +39,6 @@ sections:
     options:
       timeZone: Asia/Riyadh
       format: ar-SA
-- name: الثغرات الأمنية
-  icon: fal fa-bug
-  widgets:
-  - type: cve-vulnerabilities
-    options:
-      sortBy: publish-date
-      limit: 30
 - name: الأخبار التقنية
   icon: fal fa-rss
   widgets:
@@ -53,4 +46,12 @@ sections:
     options:
       rssUrl: https://www.securitymagazine.com/rss/topic/2236-cybersecurity-news
       apiKey: 08a38o9tgijssmaklhg0j8kfnvuvn9gjmspdmywu
+#- name: الثغرات الأمنية
+#  icon: fal fa-bug
+#  widgets:
+#  - type: cve-vulnerabilities
+#    options:
+#      sortBy: publish-date
+#      limit: 30
+
 
