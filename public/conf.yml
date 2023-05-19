@@ -47,11 +47,10 @@ sections:
       sortBy: publish-date
       limit: 30
 - name: الأخبار التقنية
-  icon: fal fa-square-rss
+  icon: fal fa-rss
   widgets:
   - type: rss-feed
     options:
       rssUrl: https://www.securitymagazine.com/rss/topic/2236-cybersecurity-news
       apiKey: 08a38o9tgijssmaklhg0j8kfnvuvn9gjmspdmywu
-      limit: 30
-  
+
